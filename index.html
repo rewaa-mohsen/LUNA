@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Luna Accessories</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<header>
+    <div class="logo">
+        LUNA
+        <span>Accessories</span>
+    </div>
+
+    <nav>
+        <a href="#home" data-en="Home" data-ar="الرئيسية">Home</a>
+        <a href="#shop" data-en="Shop" data-ar="المنتجات">Shop</a>
+        <a href="#categories" data-en="Categories" data-ar="الأقسام">Categories</a>
+        <a href="#about" data-en="About" data-ar="من نحن">About</a>
+        <a href="#contact" data-en="Contact" data-ar="تواصل معنا">Contact</a>
+    </nav>
+
+    <div class="header-actions">
+        <button id="languageBtn">عربي</button>
+
+        <div class="cart">
+            🛒 <span data-en="Cart" data-ar="السلة">Cart</span>
+        </div>
+    </div>
+</header>
+
+
+<section class="hero" id="home">
+
+    <div class="hero-overlay"></div>
+
+    <div class="hero-text">
+
+        <p class="small-title"
+           data-en="CREATE THE LOOK YOU WANT"
+           data-ar="اصنعي إطلالتك بطريقتك">
+            CREATE THE LOOK YOU WANT
+        </p>
+
+        <h1
+            data-en="Jewelry For Every Mood"
+            data-ar="إكسسوارات لكل إطلالة">
+            Jewelry For Every Mood
+        </h1>
+
+        <p
+            data-en="Beautiful accessories designed to complete your style."
+            data-ar="إكسسوارات جميلة مصممة لتكمل إطلالتك.">
+            Beautiful accessories designed to complete your style.
+        </p>
+
+        <button
+            data-en="DISCOVER THE COLLECTION"
+            data-ar="اكتشفي المجموعة">
+            DISCOVER THE COLLECTION
+        </button>
+
+    </div>
+
+</section>
+    
+<section class="categories" id="categories">
+
+    <h2
+        data-en="Categories"
+        data-ar="الأقسام">
+        Categories
+    </h2>
+
+    <p class="section-subtitle"
+       data-en="Explore our collections"
+       data-ar="اكتشفي مجموعاتنا">
+        Explore our collections
+    </p>
+
+    <div class="category-container">
+
+        <div class="category-card" data-category="rings">
+            <img src="https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=500&q=80" alt="Rings">
+
+            <h3
+                data-en="Rings"
+                data-ar="خواتم">
+                Rings
+            </h3>
+        </div>
+
+
+        <div class="category-card" data-category="necklaces">
+            <img src="https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=500&q=80" alt="Necklaces">
+
+            <h3
+                data-en="Necklaces"
+                data-ar="سلاسل">
+                Necklaces
+            </h3>
+        </div>
+
+
+        <div class="category-card" data-category="bracelets">
+        <img src="https://images.unsplash.com/photo-1611591437281-460bfbe1220a?auto=format&fit=crop&w=500&q=80" alt="Bracelets">
+
+            <h3
+                data-en="Bracelets"
+                data-ar="أساور">
+                Bracelets
+            </h3>
+        </div>
+
+
+        <div class="category-card" data-category="earrings">
+            <img src="https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=500&q=80" alt="Earrings">
+
+            <h3
+                data-en="Earrings"
+                data-ar="حلقان">
+                Earrings
+            </h3>
+        </div>
+
+
+        <div class="category-card" data-category="bags">
+            <img src="https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=500&q=80" alt="Bags">
+
+            <h3
+                data-en="Bags"
+                data-ar="شنط">
+                Bags
+            </h3>
+        </div>
+
+
+        <div class="category-card" data-category="sunglasses">
+            <img src="https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=500&q=80" alt="Sunglasses">
+
+            <h3
+                data-en="Sunglasses"
+                data-ar="نظارات">
+                Sunglasses
+            </h3>
+        </div>
+
+    </div>
+
+
+</section>
+<section class="products" id="shop">
+
+    <h2
+        data-en="Featured Products"
+        data-ar="منتجات مميزة">
+        Featured Products
+    </h2>
+    <div class="search-box">
+    <input
+        type="text"
+        id="productSearch"
+        placeholder="Search products..."
+        data-placeholder-en="Search products..."
+        data-placeholder-ar="ابحثي عن منتج...">
+
+    <button
+        id="searchBtn"
+        data-en="Search"
+        data-ar="بحث">
+        Search
+    </button>
+</div>
+
+    <div class="product-container">
+    <div class="product-card" data-category="necklaces">
+    <img src="https://www.hellonoemie.com/cdn/shop/files/SN00507Y-5VS8Y-QS_YG_625x625_crop_center.jpg?v=1761846935">
+
+    <h3
+        data-en="Gold Necklace"
+        data-ar="سلسلة ذهبية"
+        data-product-en="Gold Necklace"
+        data-product-ar="سلسلة ذهبية">
+        Gold Necklace
+    </h3>
+
+    <p>$35</p>
+
+    <button data-en="Add to Cart" data-ar="أضف إلى السلة">
+        Add to Cart
+    </button>
+</div>
+
+
+<div class="product-card" data-category="bracelets">
+  <img src="https://cdn.shopify.com/s/files/1/0679/7135/0705/files/gold-diamond-cut-curb-chain-bracelet-2181089.jpg?v=1775835884"
+         alt="Gold Bracelet">
+
+    <h3
+        data-en="Gold Bracelet"
+        data-ar="سوار ذهبي"
+        data-product-en="Gold Bracelet"
+        data-product-ar="سوار ذهبي">
+        Gold Bracelet
+    </h3>
+
+    <p>$28</p>
+
+    <button data-en="Add to Cart" data-ar="أضف إلى السلة">
+        Add to Cart
+    </button>
+</div>
+
+
+<div class="product-card" data-category="rings">
+    <img src="https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=600&q=80"
+         alt="Elegant Ring">
+
+    <h3
+        data-en="Elegant Ring"
+        data-ar="خاتم أنيق"
+        data-product-en="Elegant Ring"
+        data-product-ar="خاتم أنيق">
+        Elegant Ring
+    </h3>
+
+    <p>$25</p>
+
+    <button data-en="Add to Cart" data-ar="أضف إلى السلة">
+        Add to Cart
+    </button>
+</div>
+
+
+<div class="product-card" data-category="earrings">
+    <img src="https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=600&q=80"
+         alt="Pearl Earrings">
+
+    <h3
+        data-en="Pearl Earrings"
+        data-ar="حلقان لؤلؤ"
+        data-product-en="Pearl Earrings"
+        data-product-ar="حلقان لؤلؤ">
+        Pearl Earrings
+    </h3>
+
+    <p>$30</p>
+
+    <button data-en="Add to Cart" data-ar="أضف إلى السلة">
+        Add to Cart
+    </button>
+</div>
+<div class="product-card" data-category="necklaces">
+     <img src=" https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=600&q=80">
+
+    <h3
+        data-en="Silver Necklace"
+        data-ar="سلسلة فضية"
+        data-product-en="Silver Necklace"
+        data-product-ar="سلسلة فضية">
+        Silver Necklace
+    </h3>
+
+    <p>$40</p>
+
+    <button data-en="Add to Cart" data-ar="أضف إلى السلة">
+        Add to Cart
+    </button>
+</div>
+
+
+<div class="product-card" data-category="rings">
+    <img src="https://suzylevian.com/cdn/shop/products/ANR37473A-W-_1.jpg?v=1658339049&width=493">
+
+    <h3
+        data-en="Silver Ring"
+        data-ar="خاتم فضي"
+        data-product-en="Silver Ring"
+        data-product-ar="خاتم فضي">
+        Silver Ring
+    </h3>
+
+    <p>$22</p>
+
+    <button data-en="Add to Cart" data-ar="أضف إلى السلة">
+        Add to Cart
+    </button>
+</div>
+
+<div class="product-card" data-category="bracelets">
+    <img src="https://images.unsplash.com/photo-1573408301185-9146fe634ad0?auto=format&fit=crop&w=600&q=80"
+     alt="Pearl Bracelet">
+         alt="Pearl Bracelet">
+
+    <h3
+        data-en="Pearl Bracelet"
+        data-ar="سوار لؤلؤ"
+        data-product-en="Pearl Bracelet"
+        data-product-ar="سوار لؤلؤ">
+        Pearl Bracelet
+    </h3>
+
+    <p>$32</p>
+
+    <button data-en="Add to Cart" data-ar="أضف إلى السلة">
+        Add to Cart
+    </button>
+</div>
+
+
+<div class="product-card" data-category="earrings">
+   <img src="https://odo-cdn.imgix.net/catalog/product/169/288/1692888835.5199.jpeg?auto=compress%2Cformat&bg=fff&fit=fill&h=800&w=800"
+     alt="Minimal Earrings">
+
+
+    <h3
+        data-en="Minimal Earrings"
+        data-ar="حلقان بسيطة"
+        data-product-en="Minimal Earrings"
+        data-product-ar="حلقان بسيطة">
+        Minimal Earrings
+    </h3>
+
+    <p>$24</p>
+
+    <button data-en="Add to Cart" data-ar="أضف إلى السلة">
+        Add to Cart
+    </button>
+</div>
+<div class="product-card" data-category="bracelets">
+  <img src="https://images.unsplash.com/photo-1619119069152-a2b331eb392a?auto=format&fit=crop&w=600&q=80"
+     alt="Gold Bracelet">
+         alt="Silver Bracelet">
+
+    <h3
+        data-en="Silver Bracelet"
+        data-ar="سوار فضي"
+        data-product-en="Silver Bracelet"
+        data-product-ar="سوار فضي">
+        Silver Bracelet
+    </h3>
+
+    <p>$26</p>
+
+    <button data-en="Add to Cart" data-ar="أضف إلى السلة">
+        Add to Cart
+    </button>
+</div>
+
+
+<div class="product-card" data-category="bags">
+    <img src="https://images.unsplash.com/photo-1594223274512-ad4803739b7c?auto=format&fit=crop&w=600&q=80"
+         alt="Classic Bag">
+
+    <h3
+        data-en="Classic Bag"
+        data-ar="شنطة كلاسيك"
+        data-product-en="Classic Bag"
+        data-product-ar="شنطة كلاسيك">
+        Classic Bag
+    </h3>
+
+    <p>$45</p>
+
+    <button data-en="Add to Cart" data-ar="أضف إلى السلة">
+        Add to Cart
+    </button>
+</div>
+<div class="product-card" data-category="bags">
+    <img src="https://www.minorhistory.com/cdn/shop/products/2020_1102_Minor_History_LINE_Shoulder_Bag_Black_front.jpg?v=1775669543"
+         alt="Black Shoulder Bag">
+
+    <h3 data-en="Black Shoulder Bag" data-ar="شنطة كتف سوداء"
+        data-product-en="Black Shoulder Bag" data-product-ar="شنطة كتف سوداء">
+        Black Shoulder Bag
+    </h3>
+
+    <p>$50</p>
+
+    <button data-en="Add to Cart" data-ar="أضف إلى السلة">
+        Add to Cart
+    </button>
+</div>
+<div class="product-card" data-category="bags">
+    <img src="https://static.wixstatic.com/media/970e9c_1300215e544a45cc9c3cf49f719182f2~mv2.jpg/v1/fill/w_980%2Ch_1225%2Cal_c%2Cq_85%2Cusm_0.66_1.00_0.01%2Cenc_avif%2Cquality_auto/970e9c_1300215e544a45cc9c3cf49f719182f2~mv2.jpg"
+         alt="Brown Shoulder Bag">
+
+    <h3 data-en="Brown Shoulder Bag" data-ar="شنطة كتف بنية"
+        data-product-en="Brown Shoulder Bag" data-product-ar="شنطة كتف بنية">
+        Brown Shoulder Bag
+    </h3>
+
+    <p>$48</p>
+
+    <button data-en="Add to Cart" data-ar="أضف إلى السلة">
+        Add to Cart
+    </button>
+</div>
+
+
+<div class="product-card" data-category="sunglasses">
+    <img src="https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=600&q=80"
+         alt="Black Sunglasses">
+
+    <h3
+        data-en="Black Sunglasses"
+        data-ar="نظارة شمس سوداء"
+        data-product-en="Black Sunglasses"
+        data-product-ar="نظارة شمس سوداء">
+        Black Sunglasses
+    </h3>
+
+    <p>$32</p>
+
+    <button data-en="Add to Cart" data-ar="أضف إلى السلة">
+        Add to Cart
+    </button>
+</div>
+    <div class="product-card" data-category="sunglasses">
+    <img src="https://uropenn.se/image/37871/60500877.jpg"
+         alt="Classic Black Sunglasses">
+
+    <h3 data-en="Classic Black Sunglasses" data-ar="نظارة سوداء كلاسيك"
+        data-product-en="Classic Black Sunglasses" data-product-ar="نظارة سوداء كلاسيك">
+        Classic Black Sunglasses
+    </h3>
+
+    <p>$35</p>
+
+    <button data-en="Add to Cart" data-ar="أضف إلى السلة">
+        Add to Cart
+    </button>
+</div>
+
+<div class="product-card" data-category="sunglasses">
+    <img src="https://twosvge.com/cdn/shop/products/capri-black-unisex-sunglasses.jpg?v=1617933683"
+         alt="Minimal Black Sunglasses">
+
+    <h3 data-en="Minimal Black Sunglasses" data-ar="نظارة سوداء بسيطة"
+        data-product-en="Minimal Black Sunglasses" data-product-ar="نظارة سوداء بسيطة">
+        Minimal Black Sunglasses
+    </h3>
+
+    <p>$38</p>
+
+    <button data-en="Add to Cart" data-ar="أضف إلى السلة">
+        Add to Cart
+    </button>
+</div>
+
+</div>
+<section class="about" id="about">
+
+    <div class="about-text">
+
+        <p class="small-title"
+           data-en="ABOUT LUNA"
+           data-ar="عن لونا">
+            ABOUT LUNA
+        </p>
+
+        <h2
+            data-en="Accessories Made For Your Style"
+            data-ar="إكسسوارات مصممة لأسلوبك">
+            Accessories Made For Your Style
+        </h2>
+
+        <p
+            data-en="Luna is a modern accessories store offering simple and elegant pieces for every style."
+            data-ar="لونا متجر عصري للإكسسوارات يقدم قطعًا بسيطة وأنيقة تناسب كل الأذواق.">
+            Luna is a modern accessories store offering simple and elegant pieces for every style.
+        </p>
+
+        <p
+            data-en="Discover necklaces, rings, bracelets, bags and sunglasses designed to complete your look."
+            data-ar="اكتشفي السلاسل والخواتم والأساور والشنط والنظارات لتكملي إطلالتك.">
+            Discover necklaces, rings, bracelets, bags and sunglasses designed to complete your look.
+        </p>
+
+    </div>
+<section class="contact" id="contact">
+
+    <div class="contact-text">
+
+        <p class="small-title"
+           data-en="CONTACT US"
+           data-ar="تواصلي معنا">
+            CONTACT US
+        </p>
+
+        <h2
+            data-en="We'd Love To Hear From You"
+            data-ar="يسعدنا تواصلك معنا">
+            We'd Love To Hear From You
+        </h2>
+
+        <p
+            data-en="Have a question about our products? Send us a message and we'll be happy to help."
+            data-ar="لديكِ سؤال عن منتجاتنا؟ أرسلي لنا رسالة وسنسعد بمساعدتكِ.">
+            Have a question about our products? Send us a message and we'll be happy to help.
+        </p>
+
+        <form class="contact-form">
+
+            <input type="text"
+                   placeholder="Your Name"
+                   data-placeholder-en="Your Name"
+                   data-placeholder-ar="اسمك">
+
+            <input type="email"
+                   placeholder="Your Email"
+                   data-placeholder-en="Your Email"
+                   data-placeholder-ar="بريدك الإلكتروني">
+
+            <textarea
+                   placeholder="Your Message"
+                   data-placeholder-en="Your Message"
+                   data-placeholder-ar="رسالتك"></textarea>
+
+            <button type="submit"
+                    data-en="Send Message"
+                    data-ar="إرسال الرسالة">
+                Send Message
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+<section class="cart-section">
+
+    <h2
+        data-en="Your Shopping Cart"
+        data-ar="سلة المشتريات">
+        Your Shopping Cart
+    </h2>
+
+    <div id="cart-items">
+        <p
+            data-en="Your cart is empty."
+            data-ar="السلة فارغة.">
+            Your cart is empty.
+        </p>
+    </div>
+
+    <div class="cart-total">
+
+        <h3>
+            <span
+                data-en="Total:"
+                data-ar="الإجمالي:">
+                Total:
+            </span>
+
+            $<span id="cart-total">0</span>
+        </h3>
+
+    </div>
+
+</section>
+
+</section>
+    <script src="script.js"></script>
+   <footer class="footer">
+
+    <div class="footer-content">
+
+        <div class="footer-brand">
+            <h2>LUNA</h2>
+            <p
+                data-en="Simple accessories for your everyday style."
+                data-ar="إكسسوارات بسيطة تناسب إطلالتك اليومية.">
+                Simple accessories for your everyday style.
+            </p>
+        </div>
+
+        <div class="footer-links">
+            <h3 data-en="Quick Links" data-ar="روابط سريعة">
+                Quick Links
+            </h3>
+
+            <a href="#home"
+               data-en="Home"
+               data-ar="الرئيسية">
+                Home
+            </a>
+
+            <a href="#shop"
+               data-en="Shop"
+               data-ar="المنتجات">
+                Shop
+            </a>
+
+            <a href="#about"
+               data-en="About"
+               data-ar="من نحن">
+                About
+            </a>
+
+            <a href="#contact"
+               data-en="Contact"
+               data-ar="تواصل معنا">
+                Contact
+            </a>
+        </div>
+
+        <div class="footer-contact">
+            <h3 data-en="Contact Us" data-ar="تواصلي معنا">
+                Contact Us
+            </h3>
+
+            <p>luna@example.com</p>
+            <p>+20 100 000 0000</p>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p
+            data-en="© 2026 Luna Accessories. All rights reserved."
+            data-ar="© 2026 Luna Accessories. جميع الحقوق محفوظة.">
+            © 2026 Luna Accessories. All rights reserved.
+        </p>
+    </div>
+
+</footer> 
+<script src="script.js"></script>
+</body>
+</html>
